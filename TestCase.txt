@@ -1,0 +1,83 @@
+Q1
+TC1:
+Enter maker: TofU
+Enter quantity: 2
+1. Test getMaker()
+2. Test setQuantity()
+Enter TC (1 or 2): 1
+OUTPUT:
+tofu
+
+TC2:
+Enter maker: tofu
+Enter quantity: 2
+1. Test getMaker()
+2. Test setQuantity()
+Enter TC (1 or 2): 2
+Enter new quantity: 10
+OUTPUT:
+10
+
+Q2
+TC1:
+Enter name: samsung
+Enter power: 100
+Enter sound: standard
+1. Test toString()
+2. Test setData()
+3. Test getValue()
+Enter TC (1,2,3): 1
+OUTPUT:
+samsung, 100
+samsung, standard, 100
+
+TC2:
+Enter name: samsung
+Enter power: 100
+Enter sound: standard
+1. Test toString()
+2. Test setData()
+3. Test getValue()
+Enter TC (1,2,3): 2
+OUTPUT:
+samsun, 100
+
+TC3:
+Enter name: samsung
+Enter power: 100
+Enter sound: standard
+1. Test toString()
+2. Test setData()
+3. Test getValue()
+Enter TC (1,2,3): 3
+OUTPUT:
+standard
+
+TC4:
+Enter name: samsung
+Enter power: 9
+Enter sound: standard
+1. Test toString()
+2. Test setData()
+3. Test getValue()
+Enter TC (1,2,3): 3
+OUTPUT:
+standard9
+
+
+Q3:
+TC1:
+Add how many elements: 0
+Enter TC(1-f1;2-f2;3-f3): 1
+The list before running f1:
+(A2,8) (B1,2) (C3,16) (D4,17) (E5,6) 
+OUTPUT:
+2
+
+TC2:
+Add how many elements: 0
+Enter TC(1-f1;2-f2;3-f3): 2
+The list before running f2:
+(A,6) (B,9) (C,2) (D,29) (E,22) (F,19) (G,12) (H,5) 
+OUTPUT:
+(C,2) (A,6) (B,9) (E,22) (D,29) (F,19) (G,12) (H,5)
